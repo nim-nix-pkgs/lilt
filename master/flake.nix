@@ -9,7 +9,7 @@
   
   inputs.src-lilt-master.flake = false;
   inputs.src-lilt-master.owner = "quelklef";
-  inputs.src-lilt-master.ref   = "refs/heads/master";
+  inputs.src-lilt-master.ref   = "master";
   inputs.src-lilt-master.repo  = "lilt";
   inputs.src-lilt-master.type  = "github";
   
