@@ -11,6 +11,7 @@
   inputs.src-lilt-master.ref   = "refs/heads/master";
   inputs.src-lilt-master.owner = "quelklef";
   inputs.src-lilt-master.repo  = "lilt";
+  inputs.src-lilt-master.dir   = "";
   inputs.src-lilt-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
